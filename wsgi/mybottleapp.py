@@ -1,12 +1,14 @@
-from bottle import route, default_app
- 
-@route('/name/<name>')
-def nameindex(name='Stranger'):
-    return '<strong>Hello, %s!</strong>' % name
+from bottle import route, get, post, template, run, error, request, static_file, default_app
+from lxml import etree
+
+@route('/static/<filename>')
+def server_static(filename):
+    return static_file(filename, root='./static')
+
  
 @route('/')
-def index():
-    return '<strong>Hello World!</strong>'
+def principal():
+    return template('inicio')
 
 # This must be added in order to do correct path lookups for the views
 import os
