@@ -29,7 +29,7 @@
 				<header>
 					<nav>
 						<ul id="menu">
-							<li><a href="index.tpl">Inicio</a></li>
+							<li><a href="/">Inicio</a></li>
 							<!--
 							<li><a href="Parties.html">Parties</a></li>
 							<li><a href="Gallery.html">Gallery</a></li>
@@ -39,24 +39,24 @@
 							-->
 						</ul>
 					</nav>
-					<h1></h1><a href="./index.tpl"><img src="../static/images/logo1.png" alt=""></a></h1>
+					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
 				</header><div class="ic">More Website Templates @ TemplateMonster.com - October 03, 2011</div>
 				<!--header end-->
 				<div class="box">
 				<!--content -->
-				<article id="content">
-					<div class="wrapper">
+						<div class="cabecera">
 						<h2>Busqueda de artista</h2>
-						<form id="Busqueda-artista">
-							<div>
-								<a href="/artistas"<img src="../static/images/artistas.jpg" class="artista" alt=""></a>
-								<div class="busqueda">
-									<form action="/resultado" method="POST">
-									<input name="artista" placeholder="Nombre artista, grupo.." type="text" />
-									<input value="busqueda" input type="submit" >
-								</div>
-							</div>
-						</form>
+						<!--
+						<div class="imagen">
+							<a href="/artistas"<img src="../static/images/artistas.jpg" class="artista" alt=""></a>
+						-->
+						<div class="busqueda">
+							<form action="/resultado" method="POST">
+							<input name="artista" placeholder="Nombre artista, grupo.." type="text" />
+							<input value="busqueda" type="submit" >								</div>
+							</form>
+						</div>
+						
 					
 				<!--content end-->
 				<!--footer -->

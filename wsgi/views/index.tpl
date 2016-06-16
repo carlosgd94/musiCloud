@@ -65,9 +65,9 @@
 						<figure class="left marg_right1"><a href="#"><img src="../static/images/logo1.png" alt=""></a></figure>
 						<h3>El mejor buscador de musica</h3>
 						<p class="pad_bot1">Podrás encontrar a todos los artitas del panorama musical, selecciona la opción, si quieres buscar la cación o la letra.</p>
-						<ul class="list1 pad_bot1">
-							<li><a href="/artistas">Busca las canciones de tus artistas favoritos.</a></li>
-							<li><a href="/letras">letras de tus artistas favoritos</a></li>
+						<ul class="lista_de_opciones">
+							<li><a href="artistas.tpl">Busca las canciones de tus artistas favoritos.</a></li>
+							<li><a href="letras.tpl">letras de tus artistas favoritos</a></li>
 						</ul>
 					</div>
 				</div>
@@ -80,13 +80,12 @@
 						<div class="icons">
 							<h4>Conecta con nosotros</h4>
 							<ul id="iconos">
-								<li><a href="https://www.reddit.com/r/deezer/" class="normaltip" title="Reddit"><img src="images/icon1.jpg" alt=""></a></li>
-								<li><a href="https://twitter.com/deezer?lang=es" class="normaltip" title="Twitter"><img src="images/icon3.jpg" alt=""></a></li>
-								<li><a href="https://www.facebook.com/deezer/" class="normaltip" title="Facebook"><img src="images/icon4.jpg" alt=""></a></li>
+								<li><a href="https://www.reddit.com/r/deezer/" class="normaltip" title="Reddit"><img src="../static/images/icon1.jpg" alt=""></a></li>
+								<li><a href="https://twitter.com/deezer?lang=es" class="normaltip" title="Twitter"><img src="../static/images/icon3.jpg" alt=""></a></li>
+								<li><a href="https://www.facebook.com/deezer/" class="normaltip" title="Facebook"><img src="../static/images/icon4.jpg" alt=""></a></li>
 							</ul>
 							<!-- {%FOOTER_LINK} -->
-						<!--
-						</div>
+						<!--ssh://573984de2d5271c785000169@musicloud-carlosgomez.rhcloud.com/~/git/musicloud.git/
 						<div class="info">
 							<h4>About Us</h4>
 							<ul>
