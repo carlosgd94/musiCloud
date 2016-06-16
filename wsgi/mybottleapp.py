@@ -14,7 +14,7 @@ def buscar():
 @route ('/resultado', method='post')
 def nombre():
 	global artist
-	artist = request.forms.get("artista")
+	artist = request.params.get("artista")
 	r = requests.get('http://api.deezer.com/search/album', params={'q':'%s'% artist})
 	datos=json.loads(r.text)
 	return template("resultado.tpl", data=datos,busqueda=artist)
