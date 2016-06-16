@@ -1,5 +1,6 @@
 from bottle import route, get, post, put, template, run, default_app, error, request, static_file, response 
 import requests
+import json
 from lxml import etree
 
  
@@ -18,9 +19,17 @@ def nombre():
 	datos=json.loads(r.text)
 	return template('resultado.tpl', data=datos,busqueda=artist)
 
+#@route('/static/<filepath:path>')
+#def server_static(filepath):
+#    return static_file(filepath, root='static')
+
 @route('/static/<filepath:path>')
 def server_static(filepath):
-    return static_file(filepath, root='static')
+    return static_file(filepath, root=os.environ['OPENSHIFT_REPO_DIR']+"wsgi/static")
+    
+@error(404)
+def error404(error):
+    return template('error')
 
 # This must be added in order to do correct path lookups for the views
 
