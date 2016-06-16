@@ -49,15 +49,21 @@
 						<!--
 						<div class="imagen">
 							<a href="/artistas"<img src="../static/images/artistas.jpg" class="artista" alt=""></a>
-						-->
+						
 						<div class="busqueda">
 							<form action="/resultado" method="POST">
 							<input name="artista" placeholder="Nombre artista, grupo.." type="text" />
 							<input value="busqueda" type="submit" >								</div>
 							</form>
 						</div>
-						
-					
+						-->
+						<form class="form-container" action="/resultado" method="post">
+							<input name="gem" type="text" class="search-field"/>
+							<div class="submit-container">
+								<input type="submit" value="Buscar" class="submit" />
+							</div>
+						</form>
+						</div>
 				<!--content end-->
 				<!--footer -->
 				<footer>
