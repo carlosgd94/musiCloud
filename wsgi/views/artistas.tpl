@@ -29,7 +29,7 @@
 				<header>
 					<nav>
 						<ul id="menu">
-							<li><a href="/">Inicio</a></li>
+							<li><a href="index.tpl">Inicio</a></li>
 							<!--
 							<li><a href="Parties.html">Parties</a></li>
 							<li><a href="Gallery.html">Gallery</a></li>
@@ -39,7 +39,7 @@
 							-->
 						</ul>
 					</nav>
-					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
+					<h1></h1><a href="#"><img src="../static/images/logo1.png" alt=""></a></h1>
 				</header><div class="ic">More Website Templates @ TemplateMonster.com - October 03, 2011</div>
 				<!--header end-->
 				<div class="box">

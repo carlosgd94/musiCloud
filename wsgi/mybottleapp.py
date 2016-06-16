@@ -1,7 +1,7 @@
 from bottle import route, get, post, put, template, run, default_app, error, request, static_file, response 
 import requests
 import json
-from lxml import etree
+
 
  
 @route('/')
@@ -19,9 +19,7 @@ def nombre():
 	datos=json.loads(r.text)
 	return template('resultado.tpl', data=datos,busqueda=artist)
 
-#@route('/static/<filepath:path>')
-#def server_static(filepath):
-#    return static_file(filepath, root='static')
+
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
