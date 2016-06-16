@@ -61,9 +61,9 @@
 							<input name="gem" type="text" class="search-field"/>
 							<div class="submit-container">
 								<input type="submit" value="Buscar" class="submit" />
-							</div>
+            				</div>
 						</form>
-						</div>
+				</div>
 				<!--content end-->
 				<!--footer -->
 				<footer>
