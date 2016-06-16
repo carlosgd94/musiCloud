@@ -39,13 +39,13 @@
 							-->
 						</ul>
 					</nav>
-					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
+					<h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
 				</header><div class="ic">More Website Templates @ TemplateMonster.com - October 03, 2011</div>
 				<!--header end-->
 				<div class="box">
 				<!--content -->
 				<div id="encabezado">
-					<a href="/"><h1>Sound Bank</h1></a>
+					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
 					<h2>Letra de: {{song}}</h2>
 				</div>
 					<center><iframe class="frame" src="{{url}}"> </iframe></center>
