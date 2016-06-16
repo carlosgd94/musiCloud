@@ -66,8 +66,8 @@
 						<h3>El mejor buscador de musica</h3>
 						<p class="pad_bot1">Podrás encontrar a todos los artitas del panorama musical, selecciona la opción, si quieres buscar la cación o la letra.</p>
 						<ul class="lista_de_opciones">
-							<li><a href="artistas.tpl">Busca las canciones de tus artistas favoritos.</a></li>
-							<li><a href="letras.tpl">letras de tus artistas favoritos</a></li>
+							<li><a href="/artistas">Busca las canciones de tus artistas favoritos.</a></li>
+							<li><a href="/letras">letras de tus artistas favoritos</a></li>
 						</ul>
 					</div>
 				</div>

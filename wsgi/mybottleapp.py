@@ -1,23 +1,22 @@
 from bottle import route, get, post, put, template, run, default_app, error, request, static_file, response 
 import requests
 import json
-
-
+from lxml import etree
  
 @route('/')
 def principal():
     return template('index.tpl')
     
 @route('/artistas')
-def search():
+def buscar():
     return template('artistas.tpl')
 
-@post ('/resultado')
+@route ('/resultado', method='post')
 def nombre():
 	artist = request.forms.get("artista")
 	r = requests.get('http://api.deezer.com/search/album', params={'q':'%s'% artist})
 	datos=json.loads(r.text)
-	return template('resultado.tpl', data=datos,busqueda=artist)
+	return template("resultado.tpl", data=datos,busqueda=artist)
 
 
 
