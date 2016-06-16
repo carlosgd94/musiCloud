@@ -1,4 +1,5 @@
-from bottle import route, get, post, put, template, run, default_app, error, request, static_file, response 
+
+from bottle import route, default_app, get, post, put, run, template, error, request, static_file, response
 import requests
 import json
 from lxml import etree
