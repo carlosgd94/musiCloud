@@ -30,7 +30,6 @@ def letra():
     cancionk = request.forms.get("cancion")
     dicc_peticion = {'artist':artist2,'song':cancionk,'fmt':'xml'}
     peticion = requests.get('http://lyrics.wikia.com/api.php/lyrics', params=dicc_peticion)
-    print peticion.url
     datos1 = etree.fromstring(peticion.text.encode("utf-8"))
     url = datos1.find("url")
     lyrics = datos1.find("lyrics")
