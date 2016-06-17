@@ -45,7 +45,7 @@
 				<div class="box">
 				<!--content -->
 				<div id="Pbusqueda">
-				<p>Resultado de la busqueda: {{artist}} </p>
+				<p>Resultado de la busqueda: {{busqueda}} </p>
 				</div>
 				<div id="contenedor">
 					%for i in data['data']:

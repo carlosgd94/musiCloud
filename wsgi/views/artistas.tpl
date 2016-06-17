@@ -58,7 +58,7 @@
 						</div>
 						-->
 						<form class="form-container" action="/resultado" method="post">
-							<input name="gem" type="text" class="search-field"/>
+							<input name="artista" type="text" class="search-field"/>
 							<div class="submit-container">
 								<input type="submit" value="Buscar" class="submit" />
             				</div>
