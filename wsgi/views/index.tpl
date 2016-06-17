@@ -55,7 +55,6 @@
 					<section class="col1">
 						<h2 id="welcom">Bienvenido!</h2>
 						<p class="color1">MusiCloud esta dedicado a ofrecerte la mejor música al instante, ademas de la búsqueda de la misma por artitas, albunes. </p>
-						<p class="pad_bot1">This <a href="http://blog.templatemonster.com/2011/10/03/free-website-template-background-image-night-club/">Night Club Template</a> goes with two packages – with PSD source files and without them. PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD source) is available for anyone without registration.</p>
 					</section>
 					
 				</div>
