@@ -29,17 +29,12 @@
 				<header>
 					<nav>
 						<ul id="menu">
-							<li><a href="index.tpl">Inicio</a></li>
-							<!--
-							<li><a href="Parties.html">Parties</a></li>
-							<li><a href="Gallery.html">Gallery</a></li>
-							<li><a href="Residents.html">Residents</a></li>
-							<li><a href="News.html">News</a></li>
-							<li class="active"><a href="Contacts.html">Contacts</a></li>
-							-->
+							<li><a href="/">Inicio</a></li>
+							<li><a href="/artistas">Artistas</a></li>
+							<li><a href="/letras">Letras</a></li>
 						</ul>
 					</nav>
-					<h1></h1><a href="#"><img src="../static/images/logo1.png" alt=""></a></h1>
+					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
 				</header><div class="ic">More Website Templates @ TemplateMonster.com - October 03, 2011</div>
 				<!--header end-->
 				<div class="box">
@@ -47,8 +42,7 @@
 						<div class="cabecera">
 						<h2>Busqueda de artista</h2>
 						<!--
-						<div class="imagen">
-							<a href="/artistas"<img src="../static/images/artistas.jpg" class="artista" alt=""></a>
+						
 						
 						<div class="busqueda">
 							<form action="/resultado" method="POST">

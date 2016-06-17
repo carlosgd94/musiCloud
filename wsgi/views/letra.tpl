@@ -29,14 +29,9 @@
 				<header>
 					<nav>
 						<ul id="menu">
-							<li><a href="index.tpl">Inicio</a></li>
-							<!--
-							<li><a href="Parties.html">Parties</a></li>
-							<li><a href="Gallery.html">Gallery</a></li>
-							<li><a href="Residents.html">Residents</a></li>
-							<li><a href="News.html">News</a></li>
-							<li class="active"><a href="Contacts.html">Contacts</a></li>
-							-->
+							<li><a href="/">Inicio</a></li>
+							<li><a href="/artistas">Artistas</a></li>
+							<li><a href="/letras">Letras</a></li>
 						</ul>
 					</nav>
 					<h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
@@ -45,7 +40,6 @@
 				<div class="box">
 				<!--content -->
 				<div id="encabezado">
-					<h1></h1><a href="/"><img src="../static/images/logo1.png" alt=""></a></h1>
 					<h2>Letra de: {{song}}</h2>
 				</div>
 					<center><iframe class="frame" src="{{url}}"> </iframe></center>
