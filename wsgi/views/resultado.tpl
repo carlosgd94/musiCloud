@@ -48,7 +48,7 @@
 				<p>Resultado de la busqueda: {{busqueda}} </p>
 				</div>
 				<div id="contenedor">
-					%for i in data['datos']:
+					%for i in data['data']:
 						<div class="cajas">
 				<table>
 					<tr>

@@ -15,7 +15,7 @@ def buscar():
 @route ('/resultado', method='post')
 def nombre():
 	global artist
-	artist = request.params.get("artista")
+	artist = request.forms.get("artista")
 	r = requests.get('http://api.deezer.com/search/album', params={'q':'%s'% artist})
 	datos=json.loads(r.text)
 	return template("resultado.tpl", data=datos,busqueda=artist)
@@ -29,7 +29,7 @@ def letra():
     artist2 = request.forms.get("artista2")
     cancionk = request.forms.get("cancion")
     dicc_peticion = {'artist':artist2,'song':cancionk,'fmt':'xml'}
-    peticion = requests.get('http://lyrics.wikia.com/api.php?', params=dicc_peticion)
+    peticion = requests.get('http://lyrics.wikia.com/api.php/lyrics', params=dicc_peticion)
     print peticion.url
     datos1 = etree.fromstring(peticion.text.encode("utf-8"))
     url = datos1.find("url")
