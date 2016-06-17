@@ -29,7 +29,7 @@
 				<header>
 					<nav>
 						<ul id="menu">
-							<li><a href="index.tpl">Inicio</a></li>
+							<li><a href="/">Inicio</a></li>
 							<!--
 							<li><a href="Parties.html">Parties</a></li>
 							<li><a href="Gallery.html">Gallery</a></li>
